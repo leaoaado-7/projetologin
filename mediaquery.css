@@ -1,0 +1,75 @@
+
+
+@media screen and (min-width:768px) and ( max-width: 992px){
+    body {
+        background-image: linear-gradient(to top, #c501e2, #01c4e7);
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #login{
+        width: 80vw;
+    }
+    #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-position: center,center;
+        
+
+
+    }
+
+    #formulario{
+        float: right;
+        width: 50%;
+    }
+
+
+
+}
+
+
+@media screen and (min-width:992px) {
+   
+    body {
+        background-image: linear-gradient(to top, #c501e2, #01c4e7);
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+   
+   
+    #login{
+        width: 950px;
+
+    }
+
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-position: center,center;
+
+    }
+    #formulario{
+        float: left;
+        width: 50%;
+    }
+
+    #formulario > p{
+    font-size: 1.2em;}
+
+    #formulario > h1{
+     font-size: 2em;}
+
+     #ajust{
+        padding-left: 150px;
+     }
+
+     .campo{
+        padding-left: 120px;
+     }
+     
+}
