@@ -1,3 +1,4 @@
+
 @charset "UTF-8"
 
 
@@ -46,15 +47,19 @@ main{
 
 #formulario > h1 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
 }
 
 #formulario> p{
     display: block;
-    padding: 10px;
+    padding-left: 5px;
 }
 
 #ajust{
    padding-left: 30px;
+}
+
+#form{
+   margin-bottom: 90px;
 }
