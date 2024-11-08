@@ -29,7 +29,7 @@ main{
     transform: translate( -50%, -50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 530px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
@@ -57,9 +57,95 @@ main{
 }
 
 #ajust{
-   padding-left: 30px;
+    
+   margin: 5px 5px;
 }
 
-#form{
-   margin-bottom: 90px;
+#boti{
+   margin-left: 3px;
+    display: block;
+    font-size: 1em;
+    width: 98%;
+    height: 35px;
+    background-color: #8b04a0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+
+    
+    
 }
+
+#boti:hover{
+    background-color: #ee5abd;
+}
+
+#bota{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    height: 30px;
+    background-color: #2a05ff;
+    border: 1px solid rgb(7, 2, 56);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding-top: 8px;
+    margin-top: 8px;
+    margin: 5px 5px;
+
+
+
+}
+
+#bota:hover{
+    background-color: #00c8fa;
+}
+#icon{
+    font-size: 0.8em;
+    
+    
+}
+
+.campo>input{
+    padding: 4;
+    border: 0px;
+    transform: translateY(-12px);
+    border-radius: 8px;
+    background-color: #ecc8f1;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100%-40)
+     
+
+    
+
+    
+
+
+}
+
+.campo{
+    background-color: #8b04a0;
+    display: block;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 5px;
+
+    
+}
+.campo>label{
+    display: none;
+}
+
+#icon2{
+    color: white;
+    width: 40px;
+    font-size: 2em;
+    padding: 5px;
+}
+
+
